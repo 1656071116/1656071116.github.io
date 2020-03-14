@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://1656071116.github.io</id>
+    <title>wjh的博客</title>
+    <updated>2020-03-14T04:04:29.522Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://1656071116.github.io"/>
+    <link rel="self" href="https://1656071116.github.io/atom.xml"/>
+    <subtitle>太弱了太弱了</subtitle>
+    <logo>https://1656071116.github.io/images/avatar.png</logo>
+    <icon>https://1656071116.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2020, wjh的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[wjh的主页]]></title>
+        <id>https://1656071116.github.io/post/wjh-de-zhu-ye/</id>
+        <link href="https://1656071116.github.io/post/wjh-de-zhu-ye/">
+        </link>
+        <updated>2020-03-13T03:24:32.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="欢迎来到-wjh-的主页建设中">欢迎来到 wjh 的主页（建设中）</h1>
+<figure data-type="image" tabindex="1"><img src="https://ipcounter.ihcr.top/?mode=2&amp;mail=wjh1656071116@163.com&amp;str=%E7%AA%9D%E6%98%AF%E5%85%A8%E6%B4%9B%E8%B0%B7%E6%9C%80%E8%8F%9C%E6%A9%99%E5%90%8D&amp;qq=1656071116&amp;lg=wjh_&amp;strsize=18&amp;gh=1656071116" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://cdn.luogu.com.cn/upload/image_hosting/pte0g3hi.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+</feed>
