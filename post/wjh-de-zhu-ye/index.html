@@ -4,14 +4,11 @@
     <meta charset="utf-8" >
 
 <title>wjh的主页 | wjh的博客</title>
-<meta name="description" content="太弱了太弱了">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="https://1656071116.github.io/favicon.ico?v=1584158644203">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://1656071116.github.io/favicon.ico?v=1584160647129">
 <link rel="stylesheet" href="https://1656071116.github.io/styles/main.css">
 
 
@@ -21,155 +18,124 @@
 
   
 
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
+
+    <meta name="description" content="欢迎来到 wjh 的主页（建设中）
+
+
+..." />
+    <meta name="keywords" content="主页" />
   </head>
   <body>
-  
-    <nav class="navbar border fixed split-nav">
-  <div class="nav-brand">
-    <h3><a href="https://1656071116.github.io">wjh的博客</a></h3>
-  </div>
-  <div class="collapsible">
-    <input id="collapsible1" type="checkbox" name="collapsible1">
-    <button>
-      <label for="collapsible1">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </label>
-    </button>
-    <div class="collapsible-body">
-      <ul class="inline">
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://1656071116.github.io">
+        <img src="https://1656071116.github.io/images/avatar.png?v=1584160647129" class="site-logo">
+        <h1 class="site-title">wjh的博客</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
         
-          <li>
-            
-              <a href="https://1656071116.github.io" class="menu">
-                首页
-              </a>
-            
-          </li>
+          <a href="https://1656071116.github.io" class="site-nav">
+            首页
+          </a>
         
-          <li>
-            
-              <a href="https://1656071116.github.io/post/wjh-de-zhu-ye" class="menu">
-                个人主页
-              </a>
-            
-          </li>
+      
         
-      </ul>
+          <a href="https://1656071116.github.io/post/wjh-de-zhu-ye" class="site-nav">
+            个人主页
+          </a>
+        
+      
     </div>
   </div>
-</nav>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      太弱了太弱了
+    </div>
+    <div class="site-footer">
+      wjh的博客 | <a class="rss" href="https://1656071116.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
 
-    <div id="top" class="row site">
-      <div class="sm-12 md-8 col">
-        <div class="paper">
-          <article class="article">
-            <h1>wjh的主页</h1>
-            <p class="article-meta">
-              2020-03-13
-              
-                <a href="https://1656071116.github.io/tag/93w-KtlWc/" class="badge ">
-                  主页
-                </a>
-              
-            </p>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">wjh的主页</h2>
+            <div class="post-date">2020-03-13</div>
             
-            <div class="post-content">
+            <div class="post-content" v-pre>
               <h1 id="欢迎来到-wjh-的主页建设中">欢迎来到 wjh 的主页（建设中）</h1>
 <figure data-type="image" tabindex="1"><img src="https://ipcounter.ihcr.top/?mode=2&amp;mail=wjh1656071116@163.com&amp;str=%E7%AA%9D%E6%98%AF%E5%85%A8%E6%B4%9B%E8%B0%B7%E6%9C%80%E8%8F%9C%E6%A9%99%E5%90%8D&amp;qq=1656071116&amp;lg=wjh_&amp;strsize=18&amp;gh=1656071116" alt="" loading="lazy"></figure>
 <figure data-type="image" tabindex="2"><img src="https://cdn.luogu.com.cn/upload/image_hosting/pte0g3hi.png" alt="" loading="lazy"></figure>
 
             </div>
-          </article>
-        </div>
-        <div class="paper" data-aos="fade-in">
-          
-        </div>
-        
-          
-            <div class="paper" data-aos="fade-in">
-              <div id="gitalk-container"></div>
-            </div>
-          
+            
+              <div class="tag-container">
+                
+                  <a href="https://1656071116.github.io/tag/93w-KtlWc/" class="tag">
+                    主页
+                  </a>
+                
+              </div>
+            
+            
 
-          
-        
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
+
+        </div>
       </div>
-
-      <div class="sm-12 md-4 col sidebar">
-  <div class="paper info-container">
-    <img src="https://1656071116.github.io/images/avatar.png?v=1584158644203" class="no-responsive avatar">
-    <div class="text-muted">太弱了太弱了</div>
-    <div class="social-container">
-      
-        
-          <a href="https://github.com/1656071116" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      最新文章
-    </div>
-    <div class="row">
-      <ul>
-        
-          
-            <li>
-              <a href="https://1656071116.github.io/post/wjh-de-zhu-ye/">wjh的主页</a>
-            </li>
-          
-        
-      </ul>
-    </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      标签列表
-    </div>
-    <div class="row">
-      
-        <a href="https://1656071116.github.io/tag/93w-KtlWc/" class="badge warning">
-          主页
-        </a>
-      
-    </div>
-  </div>
-  <div class="paper">
-    wjh的博客 | <a class="rss" href="https://1656071116.github.io/atom.xml" target="_blank">RSS</a>
-  </div>
-</div>
-
-
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
 <script type="application/javascript">
 
 AOS.init();
 
-hljs.initHighlightingOnLoad()
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
 </script>
+
+
 
 
 
